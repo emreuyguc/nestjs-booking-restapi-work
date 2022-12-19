@@ -19,7 +19,7 @@ $ npm install
 ```
 
 ## Running the app
-
+* Default swagger url : localhost:4000/doc
 ```bash
 # With Config
 $ DB_URL={$POSTGREURL} SERVER_PORT={$PORTNUMBER} npm run start
