@@ -21,7 +21,13 @@ export class ListBookingResponseDto extends ListBookingBookingDetail{
 
 
 export class ListBookingPaginatedResult{
+
+  @ApiProperty({type:ListBookingResponseDto,isArray:true})
   data : ListBookingResponseDto[];
+
+  @ApiProperty()
   dataCount :  number;
+
+  @ApiProperty()
   total : number;
 }
